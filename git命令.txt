@@ -1,9 +1,0 @@
-问题一： git clone 远程仓库报错error setting certificate verify locations
-
-1.git配置没有修改
-
-之前配置的是公司gitlab账号的信息，和我当前要克隆的github的配置信息不同，没有注意修改
-
-2.执行以下命令：
-
-git config --system http.sslverify false
